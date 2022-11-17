@@ -1,0 +1,261 @@
+INDEX,STATUS,MALWARE,PLATFORMS,TACTIC,TID,TECHNIQUE,DATA SOURCES
+1,Active,hoplight,windows,credential-access,T1003.002,Security Account Manager,command-execution|file-access|windows-registry-key-access
+2,Active,bankshot,linux|macos|windows|network,collection,T1005,Data from Local System,command-execution|file-access|os-api-execution|process-creation|script-execution
+3,Active,blindingcan,linux|macos|windows|network,collection,T1005,Data from Local System,command-execution|file-access|os-api-execution|process-creation|script-execution
+4,Active,cryptoistic,linux|macos|windows|network,collection,T1005,Data from Local System,command-execution|file-access|os-api-execution|process-creation|script-execution
+5,Active,dtrack,linux|macos|windows|network,collection,T1005,Data from Local System,command-execution|file-access|os-api-execution|process-creation|script-execution
+6,Active,proxysvc,linux|macos|windows|network,collection,T1005,Data from Local System,command-execution|file-access|os-api-execution|process-creation|script-execution
+7,Active,threatneedle,linux|macos|windows|network,collection,T1005,Data from Local System,command-execution|file-access|os-api-execution|process-creation|script-execution
+8,Active,hotcroissant,windows|macos|linux,discovery,T1007,System Service Discovery,command-execution|os-api-execution|process-creation
+9,Active,ratankba,windows|macos|linux,discovery,T1007,System Service Discovery,command-execution|os-api-execution|process-creation
+10,Active,volgmer,windows|macos|linux,discovery,T1007,System Service Discovery,command-execution|os-api-execution|process-creation
+11,Active,hoplight,linux|windows|macos,command-and-control,T1008,Fallback Channels,network-connection-creation|network-traffic-flow
+12,Active,taintedscribe,linux|windows|macos,command-and-control,T1008,Fallback Channels,network-connection-creation|network-traffic-flow
+13,Active,hotcroissant,macos|windows|linux,discovery,T1010,Application Window Discovery,command-execution|os-api-execution|process-creation
+14,Active,bankshot,windows,discovery,T1012,Query Registry,command-execution|os-api-execution|process-creation|windows-registry-key-access
+15,Active,dtrack,windows,discovery,T1012,Query Registry,command-execution|os-api-execution|process-creation|windows-registry-key-access
+16,Active,hoplight,windows,discovery,T1012,Query Registry,command-execution|os-api-execution|process-creation|windows-registry-key-access
+17,Active,proxysvc,windows,discovery,T1012,Query Registry,command-execution|os-api-execution|process-creation|windows-registry-key-access
+18,Active,ratankba,windows,discovery,T1012,Query Registry,command-execution|os-api-execution|process-creation|windows-registry-key-access
+19,Active,volgmer,windows,discovery,T1012,Query Registry,command-execution|os-api-execution|process-creation|windows-registry-key-access
+20,Active,badcall,linux|macos|windows|network,discovery,T1016,System Network Configuration Discovery,command-execution|os-api-execution|process-creation|script-execution
+21,Active,blindingcan,linux|macos|windows|network,discovery,T1016,System Network Configuration Discovery,command-execution|os-api-execution|process-creation|script-execution
+22,Active,dtrack,linux|macos|windows|network,discovery,T1016,System Network Configuration Discovery,command-execution|os-api-execution|process-creation|script-execution
+23,Active,fallchill,linux|macos|windows|network,discovery,T1016,System Network Configuration Discovery,command-execution|os-api-execution|process-creation|script-execution
+24,Active,hotcroissant,linux|macos|windows|network,discovery,T1016,System Network Configuration Discovery,command-execution|os-api-execution|process-creation|script-execution
+25,Active,keymarble,linux|macos|windows|network,discovery,T1016,System Network Configuration Discovery,command-execution|os-api-execution|process-creation|script-execution
+26,Active,proxysvc,linux|macos|windows|network,discovery,T1016,System Network Configuration Discovery,command-execution|os-api-execution|process-creation|script-execution
+27,Active,ratankba,linux|macos|windows|network,discovery,T1016,System Network Configuration Discovery,command-execution|os-api-execution|process-creation|script-execution
+28,Active,torisma,linux|macos|windows|network,discovery,T1016,System Network Configuration Discovery,command-execution|os-api-execution|process-creation|script-execution
+29,Active,volgmer,linux|macos|windows|network,discovery,T1016,System Network Configuration Discovery,command-execution|os-api-execution|process-creation|script-execution
+30,Active,wannacry,linux|macos|windows|network,discovery,T1016,System Network Configuration Discovery,command-execution|os-api-execution|process-creation|script-execution
+31,Active,ratankba,linux|macos|windows|network,discovery,T1018,Remote System Discovery,command-execution|file-access|network-connection-creation|process-creation
+32,Active,taintedscribe,linux|macos|windows|network,discovery,T1018,Remote System Discovery,command-execution|file-access|network-connection-creation|process-creation
+33,Active,wannacry,linux|macos|windows|network,discovery,T1018,Remote System Discovery,command-execution|file-access|network-connection-creation|process-creation
+34,Active,applejeus,linux|macos|windows,defense-evasion,T1027,Obfuscated Files or Information,command-execution|file-creation|file-metadata|module-load|os-api-execution|process-creation
+35,Active,auditcred,linux|macos|windows,defense-evasion,T1027,Obfuscated Files or Information,command-execution|file-creation|file-metadata|module-load|os-api-execution|process-creation
+36,Active,blindingcan,linux|macos|windows,defense-evasion,T1027,Obfuscated Files or Information,command-execution|file-creation|file-metadata|module-load|os-api-execution|process-creation
+37,Active,dacls,linux|macos|windows,defense-evasion,T1027,Obfuscated Files or Information,command-execution|file-creation|file-metadata|module-load|os-api-execution|process-creation
+38,Active,eccentricbandwagon,linux|macos|windows,defense-evasion,T1027,Obfuscated Files or Information,command-execution|file-creation|file-metadata|module-load|os-api-execution|process-creation
+39,Active,hotcroissant,linux|macos|windows,defense-evasion,T1027,Obfuscated Files or Information,command-execution|file-creation|file-metadata|module-load|os-api-execution|process-creation
+40,Active,threatneedle,linux|macos|windows,defense-evasion,T1027,Obfuscated Files or Information,command-execution|file-creation|file-metadata|module-load|os-api-execution|process-creation
+41,Active,torisma,linux|macos|windows,defense-evasion,T1027,Obfuscated Files or Information,command-execution|file-creation|file-metadata|module-load|os-api-execution|process-creation
+42,Active,typeframe,linux|macos|windows,defense-evasion,T1027,Obfuscated Files or Information,command-execution|file-creation|file-metadata|module-load|os-api-execution|process-creation
+43,Active,volgmer,linux|macos|windows,defense-evasion,T1027,Obfuscated Files or Information,command-execution|file-creation|file-metadata|module-load|os-api-execution|process-creation
+44,Active,blindingcan,macos|windows|linux,defense-evasion,T1027.002,Software Packing,file-metadata
+45,Active,hotcroissant,macos|windows|linux,defense-evasion,T1027.002,Software Packing,file-metadata
+46,Active,torisma,macos|windows|linux,defense-evasion,T1027.002,Software Packing,file-metadata
+47,Active,dtrack,macos|windows|linux,defense-evasion,T1027.009,Embedded Payloads,file-creation|file-metadata
+48,Active,cryptoistic,linux|macos|windows,discovery,T1033,System Owner/User Discovery,active-directory-object-access|command-execution|file-access|network-traffic-content|network-traffic-flow|os-api-execution|process-access|process-creation|windows-registry-key-access
+49,Active,hotcroissant,linux|macos|windows,discovery,T1033,System Owner/User Discovery,active-directory-object-access|command-execution|file-access|network-traffic-content|network-traffic-flow|os-api-execution|process-access|process-creation|windows-registry-key-access
+50,Active,ratankba,linux|macos|windows,discovery,T1033,System Owner/User Discovery,active-directory-object-access|command-execution|file-access|network-traffic-content|network-traffic-flow|os-api-execution|process-access|process-creation|windows-registry-key-access
+51,Active,dacls,linux|macos|windows|containers,defense-evasion,T1036,Masquerading,command-execution|file-metadata|file-modification|image-metadata|process-metadata|scheduled-job-metadata|scheduled-job-modification|service-creation|service-metadata
+52,Active,blindingcan,linux|macos|windows|containers,defense-evasion,T1036.005,Match Legitimate Name or Location,file-metadata|image-metadata|process-metadata
+53,Active,dtrack,linux|macos|windows|containers,defense-evasion,T1036.005,Match Legitimate Name or Location,file-metadata|image-metadata|process-metadata
+54,Active,taintedscribe,linux|macos|windows|containers,defense-evasion,T1036.005,Match Legitimate Name or Location,file-metadata|image-metadata|process-metadata
+55,Active,threatneedle,linux|macos|windows|containers,defense-evasion,T1036.005,Match Legitimate Name or Location,file-metadata|image-metadata|process-metadata
+56,Active,applejeus,linux|macos|windows,exfiltration,T1041,Exfiltration Over C2 Channel,command-execution|file-access|network-connection-creation|network-traffic-content|network-traffic-flow
+57,Active,bankshot,linux|macos|windows,exfiltration,T1041,Exfiltration Over C2 Channel,command-execution|file-access|network-connection-creation|network-traffic-content|network-traffic-flow
+58,Active,blindingcan,linux|macos|windows,exfiltration,T1041,Exfiltration Over C2 Channel,command-execution|file-access|network-connection-creation|network-traffic-content|network-traffic-flow
+59,Active,hoplight,linux|macos|windows,exfiltration,T1041,Exfiltration Over C2 Channel,command-execution|file-access|network-connection-creation|network-traffic-content|network-traffic-flow
+60,Active,hotcroissant,linux|macos|windows,exfiltration,T1041,Exfiltration Over C2 Channel,command-execution|file-access|network-connection-creation|network-traffic-content|network-traffic-flow
+61,Active,proxysvc,linux|macos|windows,exfiltration,T1041,Exfiltration Over C2 Channel,command-execution|file-access|network-connection-creation|network-traffic-content|network-traffic-flow
+62,Active,torisma,linux|macos|windows,exfiltration,T1041,Exfiltration Over C2 Channel,command-execution|file-access|network-connection-creation|network-traffic-content|network-traffic-flow
+63,Active,hoplight,windows,execution,T1047,Windows Management Instrumentation,command-execution|network-connection-creation|process-creation
+64,Active,ratankba,windows,execution,T1047,Windows Management Instrumentation,command-execution|network-connection-creation|process-creation
+65,Active,wannacry,windows,execution,T1047,Windows Management Instrumentation,command-execution|network-connection-creation|process-creation
+66,Active,dtrack,windows|iaas|linux|macos|network,discovery,T1049,System Network Connections Discovery,command-execution|os-api-execution|process-creation
+67,Active,ratankba,windows|iaas|linux|macos|network,discovery,T1049,System Network Connections Discovery,command-execution|os-api-execution|process-creation
+68,Active,torisma,windows|iaas|linux|macos|network,discovery,T1049,System Network Connections Discovery,command-execution|os-api-execution|process-creation
+69,Active,volgmer,windows|iaas|linux|macos|network,discovery,T1049,System Network Connections Discovery,command-execution|os-api-execution|process-creation
+70,Active,applejeus,windows,execution,T1053.005,Scheduled Task,command-execution|file-modification|process-creation|scheduled-job-creation|windows-registry-key-creation
+71,Active,applejeus,windows,persistence,T1053.005,Scheduled Task,command-execution|file-modification|process-creation|scheduled-job-creation|windows-registry-key-creation
+72,Active,applejeus,windows,privilege-escalation,T1053.005,Scheduled Task,command-execution|file-modification|process-creation|scheduled-job-creation|windows-registry-key-creation
+73,Active,hotcroissant,windows,execution,T1053.005,Scheduled Task,command-execution|file-modification|process-creation|scheduled-job-creation|windows-registry-key-creation
+74,Active,hotcroissant,windows,persistence,T1053.005,Scheduled Task,command-execution|file-modification|process-creation|scheduled-job-creation|windows-registry-key-creation
+75,Active,hotcroissant,windows,privilege-escalation,T1053.005,Scheduled Task,command-execution|file-modification|process-creation|scheduled-job-creation|windows-registry-key-creation
+76,Active,auditcred,linux|macos|windows,defense-evasion,T1055,Process Injection,file-metadata|file-modification|module-load|os-api-execution|process-access|process-metadata|process-modification
+77,Active,auditcred,linux|macos|windows,privilege-escalation,T1055,Process Injection,file-metadata|file-modification|module-load|os-api-execution|process-access|process-metadata|process-modification
+78,Active,hoplight,linux|macos|windows,defense-evasion,T1055,Process Injection,file-metadata|file-modification|module-load|os-api-execution|process-access|process-metadata|process-modification
+79,Active,hoplight,linux|macos|windows,privilege-escalation,T1055,Process Injection,file-metadata|file-modification|module-load|os-api-execution|process-access|process-metadata|process-modification
+80,Active,ratankba,windows,defense-evasion,T1055.001,Dynamic-link Library Injection,module-load|os-api-execution|process-access|process-metadata|process-modification
+81,Active,ratankba,windows,privilege-escalation,T1055.001,Dynamic-link Library Injection,module-load|os-api-execution|process-access|process-metadata|process-modification
+82,Active,bankshot,linux|macos|windows,discovery,T1057,Process Discovery,command-execution|os-api-execution|process-creation
+83,Active,dacls,linux|macos|windows,discovery,T1057,Process Discovery,command-execution|os-api-execution|process-creation
+84,Active,dtrack,linux|macos|windows,discovery,T1057,Process Discovery,command-execution|os-api-execution|process-creation
+85,Active,hotcroissant,linux|macos|windows,discovery,T1057,Process Discovery,command-execution|os-api-execution|process-creation
+86,Active,keymarble,linux|macos|windows,discovery,T1057,Process Discovery,command-execution|os-api-execution|process-creation
+87,Active,proxysvc,linux|macos|windows,discovery,T1057,Process Discovery,command-execution|os-api-execution|process-creation
+88,Active,ratankba,linux|macos|windows,discovery,T1057,Process Discovery,command-execution|os-api-execution|process-creation
+89,Active,taintedscribe,linux|macos|windows,discovery,T1057,Process Discovery,command-execution|os-api-execution|process-creation
+90,Active,volgmer,linux|macos|windows,discovery,T1057,Process Discovery,command-execution|os-api-execution|process-creation
+91,Active,ratankba,windows,execution,T1059.001,PowerShell,command-execution|module-load|process-creation|process-metadata|script-execution
+92,Active,bankshot,linux|macos|windows|containers|network|office-365|google-workspace,defense-evasion,T1070,Indicator Removal,command-execution|file-deletion|file-metadata|file-modification|firewall-rule-modification|network-traffic-content|os-api-execution|process-creation|scheduled-job-modification|user-account-authentication|windows-registry-key-deletion|windows-registry-key-modification
+93,Active,applejeus,linux|macos|windows,defense-evasion,T1070.004,File Deletion,command-execution|file-deletion
+94,Active,auditcred,linux|macos|windows,defense-evasion,T1070.004,File Deletion,command-execution|file-deletion
+95,Active,bankshot,linux|macos|windows,defense-evasion,T1070.004,File Deletion,command-execution|file-deletion
+96,Active,blindingcan,linux|macos|windows,defense-evasion,T1070.004,File Deletion,command-execution|file-deletion
+97,Active,cryptoistic,linux|macos|windows,defense-evasion,T1070.004,File Deletion,command-execution|file-deletion
+98,Active,dtrack,linux|macos|windows,defense-evasion,T1070.004,File Deletion,command-execution|file-deletion
+99,Active,eccentricbandwagon,linux|macos|windows,defense-evasion,T1070.004,File Deletion,command-execution|file-deletion
+100,Active,fallchill,linux|macos|windows,defense-evasion,T1070.004,File Deletion,command-execution|file-deletion
+101,Active,hotcroissant,linux|macos|windows,defense-evasion,T1070.004,File Deletion,command-execution|file-deletion
+102,Active,keymarble,linux|macos|windows,defense-evasion,T1070.004,File Deletion,command-execution|file-deletion
+103,Active,proxysvc,linux|macos|windows,defense-evasion,T1070.004,File Deletion,command-execution|file-deletion
+104,Active,taintedscribe,linux|macos|windows,defense-evasion,T1070.004,File Deletion,command-execution|file-deletion
+105,Active,typeframe,linux|macos|windows,defense-evasion,T1070.004,File Deletion,command-execution|file-deletion
+106,Active,volgmer,linux|macos|windows,defense-evasion,T1070.004,File Deletion,command-execution|file-deletion
+107,Active,dtrack,linux|macos|windows,collection,T1074.001,Local Data Staging,command-execution|file-access|file-creation|windows-registry-key-modification
+108,Active,eccentricbandwagon,linux|macos|windows,collection,T1074.001,Local Data Staging,command-execution|file-access|file-creation|windows-registry-key-modification
+109,Active,dtrack,windows|azure-ad|office-365|saas|iaas|linux|macos|google-workspace|containers|network,defense-evasion,T1078,Valid Accounts,logon-session-creation|logon-session-metadata|user-account-authentication
+110,Active,dtrack,windows|azure-ad|office-365|saas|iaas|linux|macos|google-workspace|containers|network,initial-access,T1078,Valid Accounts,logon-session-creation|logon-session-metadata|user-account-authentication
+111,Active,dtrack,windows|azure-ad|office-365|saas|iaas|linux|macos|google-workspace|containers|network,persistence,T1078,Valid Accounts,logon-session-creation|logon-session-metadata|user-account-authentication
+112,Active,dtrack,windows|azure-ad|office-365|saas|iaas|linux|macos|google-workspace|containers|network,privilege-escalation,T1078,Valid Accounts,logon-session-creation|logon-session-metadata|user-account-authentication
+113,Active,applejeus,windows|iaas|linux|macos|network,discovery,T1082,System Information Discovery,command-execution|os-api-execution|process-creation
+114,Active,badcall,windows|iaas|linux|macos|network,discovery,T1082,System Information Discovery,command-execution|os-api-execution|process-creation
+115,Active,bankshot,windows|iaas|linux|macos|network,discovery,T1082,System Information Discovery,command-execution|os-api-execution|process-creation
+116,Active,blindingcan,windows|iaas|linux|macos|network,discovery,T1082,System Information Discovery,command-execution|os-api-execution|process-creation
+117,Active,dtrack,windows|iaas|linux|macos|network,discovery,T1082,System Information Discovery,command-execution|os-api-execution|process-creation
+118,Active,fallchill,windows|iaas|linux|macos|network,discovery,T1082,System Information Discovery,command-execution|os-api-execution|process-creation
+119,Active,hoplight,windows|iaas|linux|macos|network,discovery,T1082,System Information Discovery,command-execution|os-api-execution|process-creation
+120,Active,hotcroissant,windows|iaas|linux|macos|network,discovery,T1082,System Information Discovery,command-execution|os-api-execution|process-creation
+121,Active,keymarble,windows|iaas|linux|macos|network,discovery,T1082,System Information Discovery,command-execution|os-api-execution|process-creation
+122,Active,proxysvc,windows|iaas|linux|macos|network,discovery,T1082,System Information Discovery,command-execution|os-api-execution|process-creation
+123,Active,ratankba,windows|iaas|linux|macos|network,discovery,T1082,System Information Discovery,command-execution|os-api-execution|process-creation
+124,Active,taintedscribe,windows|iaas|linux|macos|network,discovery,T1082,System Information Discovery,command-execution|os-api-execution|process-creation
+125,Active,threatneedle,windows|iaas|linux|macos|network,discovery,T1082,System Information Discovery,command-execution|os-api-execution|process-creation
+126,Active,torisma,windows|iaas|linux|macos|network,discovery,T1082,System Information Discovery,command-execution|os-api-execution|process-creation
+127,Active,typeframe,windows|iaas|linux|macos|network,discovery,T1082,System Information Discovery,command-execution|os-api-execution|process-creation
+128,Active,volgmer,windows|iaas|linux|macos|network,discovery,T1082,System Information Discovery,command-execution|os-api-execution|process-creation
+129,Active,auditcred,linux|macos|windows|network,discovery,T1083,File and Directory Discovery,command-execution|os-api-execution|process-creation
+130,Active,bankshot,linux|macos|windows|network,discovery,T1083,File and Directory Discovery,command-execution|os-api-execution|process-creation
+131,Active,blindingcan,linux|macos|windows|network,discovery,T1083,File and Directory Discovery,command-execution|os-api-execution|process-creation
+132,Active,cryptoistic,linux|macos|windows|network,discovery,T1083,File and Directory Discovery,command-execution|os-api-execution|process-creation
+133,Active,dacls,linux|macos|windows|network,discovery,T1083,File and Directory Discovery,command-execution|os-api-execution|process-creation
+134,Active,dtrack,linux|macos|windows|network,discovery,T1083,File and Directory Discovery,command-execution|os-api-execution|process-creation
+135,Active,fallchill,linux|macos|windows|network,discovery,T1083,File and Directory Discovery,command-execution|os-api-execution|process-creation
+136,Active,hoplight,linux|macos|windows|network,discovery,T1083,File and Directory Discovery,command-execution|os-api-execution|process-creation
+137,Active,hotcroissant,linux|macos|windows|network,discovery,T1083,File and Directory Discovery,command-execution|os-api-execution|process-creation
+138,Active,keymarble,linux|macos|windows|network,discovery,T1083,File and Directory Discovery,command-execution|os-api-execution|process-creation
+139,Active,proxysvc,linux|macos|windows|network,discovery,T1083,File and Directory Discovery,command-execution|os-api-execution|process-creation
+140,Active,taintedscribe,linux|macos|windows|network,discovery,T1083,File and Directory Discovery,command-execution|os-api-execution|process-creation
+141,Active,threatneedle,linux|macos|windows|network,discovery,T1083,File and Directory Discovery,command-execution|os-api-execution|process-creation
+142,Active,typeframe,linux|macos|windows|network,discovery,T1083,File and Directory Discovery,command-execution|os-api-execution|process-creation
+143,Active,volgmer,linux|macos|windows|network,discovery,T1083,File and Directory Discovery,command-execution|os-api-execution|process-creation
+144,Active,wannacry,linux|macos|windows|network,discovery,T1083,File and Directory Discovery,command-execution|os-api-execution|process-creation
+145,Active,bankshot,linux|macos|windows,discovery,T1087.001,Local Account,command-execution|file-access|group-enumeration|os-api-execution|process-creation
+146,Active,ratankba,linux|macos|windows,discovery,T1087.001,Local Account,command-execution|file-access|group-enumeration|os-api-execution|process-creation
+147,Active,bankshot,linux|macos|windows,discovery,T1087.002,Domain Account,command-execution|group-enumeration|network-traffic-content|os-api-execution|process-creation
+148,Active,auditcred,linux|macos|windows|network,command-and-control,T1090,Proxy,network-connection-creation|network-traffic-content|network-traffic-flow
+149,Active,badcall,linux|macos|windows|network,command-and-control,T1090,Proxy,network-connection-creation|network-traffic-content|network-traffic-flow
+150,Active,hardrain,linux|macos|windows|network,command-and-control,T1090,Proxy,network-connection-creation|network-traffic-content|network-traffic-flow
+151,Active,hoplight,linux|macos|windows|network,command-and-control,T1090,Proxy,network-connection-creation|network-traffic-content|network-traffic-flow
+152,Active,typeframe,linux|macos|windows|network,command-and-control,T1090,Proxy,network-connection-creation|network-traffic-content|network-traffic-flow
+153,Active,cryptoistic,windows|linux|macos|network,command-and-control,T1095,Non-Application Layer Protocol,network-traffic-content|network-traffic-flow
+154,Active,auditcred,linux|macos|windows,command-and-control,T1105,Ingress Tool Transfer,file-creation|network-connection-creation|network-traffic-content|network-traffic-flow
+155,Active,bankshot,linux|macos|windows,command-and-control,T1105,Ingress Tool Transfer,file-creation|network-connection-creation|network-traffic-content|network-traffic-flow
+156,Active,blindingcan,linux|macos|windows,command-and-control,T1105,Ingress Tool Transfer,file-creation|network-connection-creation|network-traffic-content|network-traffic-flow
+157,Active,cryptoistic,linux|macos|windows,command-and-control,T1105,Ingress Tool Transfer,file-creation|network-connection-creation|network-traffic-content|network-traffic-flow
+158,Active,dacls,linux|macos|windows,command-and-control,T1105,Ingress Tool Transfer,file-creation|network-connection-creation|network-traffic-content|network-traffic-flow
+159,Active,dtrack,linux|macos|windows,command-and-control,T1105,Ingress Tool Transfer,file-creation|network-connection-creation|network-traffic-content|network-traffic-flow
+160,Active,hoplight,linux|macos|windows,command-and-control,T1105,Ingress Tool Transfer,file-creation|network-connection-creation|network-traffic-content|network-traffic-flow
+161,Active,hotcroissant,linux|macos|windows,command-and-control,T1105,Ingress Tool Transfer,file-creation|network-connection-creation|network-traffic-content|network-traffic-flow
+162,Active,keymarble,linux|macos|windows,command-and-control,T1105,Ingress Tool Transfer,file-creation|network-connection-creation|network-traffic-content|network-traffic-flow
+163,Active,ratankba,linux|macos|windows,command-and-control,T1105,Ingress Tool Transfer,file-creation|network-connection-creation|network-traffic-content|network-traffic-flow
+164,Active,taintedscribe,linux|macos|windows,command-and-control,T1105,Ingress Tool Transfer,file-creation|network-connection-creation|network-traffic-content|network-traffic-flow
+165,Active,threatneedle,linux|macos|windows,command-and-control,T1105,Ingress Tool Transfer,file-creation|network-connection-creation|network-traffic-content|network-traffic-flow
+166,Active,typeframe,linux|macos|windows,command-and-control,T1105,Ingress Tool Transfer,file-creation|network-connection-creation|network-traffic-content|network-traffic-flow
+167,Active,volgmer,linux|macos|windows,command-and-control,T1105,Ingress Tool Transfer,file-creation|network-connection-creation|network-traffic-content|network-traffic-flow
+168,Active,bankshot,windows|macos|linux,execution,T1106,Native API,module-load|os-api-execution
+169,Active,hotcroissant,windows|macos|linux,execution,T1106,Native API,module-load|os-api-execution
+170,Active,torisma,windows|macos|linux,execution,T1106,Native API,module-load|os-api-execution
+171,Active,volgmer,windows|macos|linux,execution,T1106,Native API,module-load|os-api-execution
+172,Active,badcall,windows,defense-evasion,T1112,Modify Registry,command-execution|os-api-execution|process-creation|windows-registry-key-creation|windows-registry-key-deletion|windows-registry-key-modification
+173,Active,bankshot,windows,defense-evasion,T1112,Modify Registry,command-execution|os-api-execution|process-creation|windows-registry-key-creation|windows-registry-key-deletion|windows-registry-key-modification
+174,Active,hoplight,windows,defense-evasion,T1112,Modify Registry,command-execution|os-api-execution|process-creation|windows-registry-key-creation|windows-registry-key-deletion|windows-registry-key-modification
+175,Active,keymarble,windows,defense-evasion,T1112,Modify Registry,command-execution|os-api-execution|process-creation|windows-registry-key-creation|windows-registry-key-deletion|windows-registry-key-modification
+176,Active,threatneedle,windows,defense-evasion,T1112,Modify Registry,command-execution|os-api-execution|process-creation|windows-registry-key-creation|windows-registry-key-deletion|windows-registry-key-modification
+177,Active,typeframe,windows,defense-evasion,T1112,Modify Registry,command-execution|os-api-execution|process-creation|windows-registry-key-creation|windows-registry-key-deletion|windows-registry-key-modification
+178,Active,volgmer,windows,defense-evasion,T1112,Modify Registry,command-execution|os-api-execution|process-creation|windows-registry-key-creation|windows-registry-key-deletion|windows-registry-key-modification
+179,Active,eccentricbandwagon,linux|macos|windows,collection,T1113,Screen Capture,command-execution|os-api-execution
+180,Active,hotcroissant,linux|macos|windows,collection,T1113,Screen Capture,command-execution|os-api-execution
+181,Active,keymarble,linux|macos|windows,collection,T1113,Screen Capture,command-execution|os-api-execution
+182,Active,bankshot,linux|macos|windows|iaas|saas,collection,T1119,Automated Collection,command-execution|file-access|script-execution
+183,Active,proxysvc,linux|macos|windows|iaas|saas,collection,T1119,Automated Collection,command-execution|file-access|script-execution
+184,Active,wannacry,windows|macos|linux,discovery,T1120,Peripheral Device Discovery,command-execution|os-api-execution|process-creation
+185,Active,hoplight,windows,discovery,T1124,System Time Discovery,command-execution|os-api-execution|process-creation
+186,Active,proxysvc,windows,discovery,T1124,System Time Discovery,command-execution|os-api-execution|process-creation
+187,Active,taintedscribe,windows,discovery,T1124,System Time Discovery,command-execution|os-api-execution|process-creation
+188,Active,torisma,windows,discovery,T1124,System Time Discovery,command-execution|os-api-execution|process-creation
+189,Active,blindingcan,windows,execution,T1129,Shared Modules,module-load|os-api-execution
+190,Active,dtrack,windows,execution,T1129,Shared Modules,module-load|os-api-execution
+191,Active,applejeus,windows|linux|macos,defense-evasion,T1140,Deobfuscate/Decode Files or Information,file-modification|process-creation|script-execution
+192,Active,auditcred,windows|linux|macos,defense-evasion,T1140,Deobfuscate/Decode Files or Information,file-modification|process-creation|script-execution
+193,Active,bankshot,windows|linux|macos,defense-evasion,T1140,Deobfuscate/Decode Files or Information,file-modification|process-creation|script-execution
+194,Active,blindingcan,windows|linux|macos,defense-evasion,T1140,Deobfuscate/Decode Files or Information,file-modification|process-creation|script-execution
+195,Active,dtrack,windows|linux|macos,defense-evasion,T1140,Deobfuscate/Decode Files or Information,file-modification|process-creation|script-execution
+196,Active,threatneedle,windows|linux|macos,defense-evasion,T1140,Deobfuscate/Decode Files or Information,file-modification|process-creation|script-execution
+197,Active,torisma,windows|linux|macos,defense-evasion,T1140,Deobfuscate/Decode Files or Information,file-modification|process-creation|script-execution
+198,Active,typeframe,windows|linux|macos,defense-evasion,T1140,Deobfuscate/Decode Files or Information,file-modification|process-creation|script-execution
+199,Active,volgmer,windows|linux|macos,defense-evasion,T1140,Deobfuscate/Decode Files or Information,file-modification|process-creation|script-execution
+200,Active,bankshot,linux|windows|macos,execution,T1203,Exploitation for Client Execution,application-log-content|process-creation
+201,Active,applejeus,linux|macos|windows,execution,T1204.002,Malicious File,file-creation|process-creation
+202,Active,blindingcan,linux|macos|windows,execution,T1204.002,Malicious File,file-creation|process-creation
+203,Active,threatneedle,linux|macos|windows,execution,T1204.002,Malicious File,file-creation|process-creation
+204,Active,typeframe,linux|macos|windows,execution,T1204.002,Malicious File,file-creation|process-creation
+205,Active,wannacry,linux|windows|macos,lateral-movement,T1210,Exploitation of Remote Services,application-log-content|network-traffic-content
+206,Active,dtrack,linux|windows|macos,discovery,T1217,Browser Bookmark Discovery,command-execution|file-access|process-creation
+207,Active,applejeus,windows,defense-evasion,T1218.007,Msiexec,command-execution|module-load|network-connection-creation|process-creation
+208,Active,blindingcan,windows,defense-evasion,T1218.011,Rundll32,command-execution|file-metadata|module-load|process-creation
+209,Active,torisma,linux|macos|windows,defense-evasion,T1480,Execution Guardrails,command-execution|process-creation
+210,Active,proxysvc,windows|iaas|linux|macos,impact,T1485,Data Destruction,cloud-storage-deletion|command-execution|file-deletion|file-modification|image-deletion|instance-deletion|process-creation|snapshot-deletion|volume-deletion
+211,Active,wannacry,linux|macos|windows|iaas,impact,T1486,Data Encrypted for Impact,cloud-storage-modification|command-execution|file-creation|file-modification|network-share-access|process-creation
+212,Active,hotcroissant,windows|linux|macos,impact,T1489,Service Stop,command-execution|file-modification|os-api-execution|process-creation|process-termination|service-metadata|windows-registry-key-modification
+213,Active,wannacry,windows|linux|macos,impact,T1489,Service Stop,command-execution|file-modification|os-api-execution|process-creation|process-termination|service-metadata|windows-registry-key-modification
+214,Active,wannacry,windows|macos|linux,impact,T1490,Inhibit System Recovery,command-execution|file-deletion|process-creation|service-metadata|windows-registry-key-modification
+215,Active,hotcroissant,windows|azure-ad|office-365|saas|iaas|linux|macos|google-workspace,discovery,T1518,Software Discovery,command-execution|firewall-enumeration|firewall-metadata|os-api-execution|process-creation
+216,Active,dacls,macos,persistence,T1543.001,Launch Agent,command-execution|file-creation|file-modification|service-creation|service-modification
+217,Active,dacls,macos,privilege-escalation,T1543.001,Launch Agent,command-execution|file-creation|file-modification|service-creation|service-modification
+218,Active,applejeus,windows,persistence,T1543.003,Windows Service,command-execution|driver-load|os-api-execution|process-creation|service-creation|service-modification|windows-registry-key-creation|windows-registry-key-modification
+219,Active,applejeus,windows,privilege-escalation,T1543.003,Windows Service,command-execution|driver-load|os-api-execution|process-creation|service-creation|service-modification|windows-registry-key-creation|windows-registry-key-modification
+220,Active,auditcred,windows,persistence,T1543.003,Windows Service,command-execution|driver-load|os-api-execution|process-creation|service-creation|service-modification|windows-registry-key-creation|windows-registry-key-modification
+221,Active,auditcred,windows,privilege-escalation,T1543.003,Windows Service,command-execution|driver-load|os-api-execution|process-creation|service-creation|service-modification|windows-registry-key-creation|windows-registry-key-modification
+222,Active,bankshot,windows,persistence,T1543.003,Windows Service,command-execution|driver-load|os-api-execution|process-creation|service-creation|service-modification|windows-registry-key-creation|windows-registry-key-modification
+223,Active,bankshot,windows,privilege-escalation,T1543.003,Windows Service,command-execution|driver-load|os-api-execution|process-creation|service-creation|service-modification|windows-registry-key-creation|windows-registry-key-modification
+224,Active,dtrack,windows,persistence,T1543.003,Windows Service,command-execution|driver-load|os-api-execution|process-creation|service-creation|service-modification|windows-registry-key-creation|windows-registry-key-modification
+225,Active,dtrack,windows,privilege-escalation,T1543.003,Windows Service,command-execution|driver-load|os-api-execution|process-creation|service-creation|service-modification|windows-registry-key-creation|windows-registry-key-modification
+226,Active,fallchill,windows,persistence,T1543.003,Windows Service,command-execution|driver-load|os-api-execution|process-creation|service-creation|service-modification|windows-registry-key-creation|windows-registry-key-modification
+227,Active,fallchill,windows,privilege-escalation,T1543.003,Windows Service,command-execution|driver-load|os-api-execution|process-creation|service-creation|service-modification|windows-registry-key-creation|windows-registry-key-modification
+228,Active,threatneedle,windows,persistence,T1543.003,Windows Service,command-execution|driver-load|os-api-execution|process-creation|service-creation|service-modification|windows-registry-key-creation|windows-registry-key-modification
+229,Active,threatneedle,windows,privilege-escalation,T1543.003,Windows Service,command-execution|driver-load|os-api-execution|process-creation|service-creation|service-modification|windows-registry-key-creation|windows-registry-key-modification
+230,Active,typeframe,windows,persistence,T1543.003,Windows Service,command-execution|driver-load|os-api-execution|process-creation|service-creation|service-modification|windows-registry-key-creation|windows-registry-key-modification
+231,Active,typeframe,windows,privilege-escalation,T1543.003,Windows Service,command-execution|driver-load|os-api-execution|process-creation|service-creation|service-modification|windows-registry-key-creation|windows-registry-key-modification
+232,Active,volgmer,windows,persistence,T1543.003,Windows Service,command-execution|driver-load|os-api-execution|process-creation|service-creation|service-modification|windows-registry-key-creation|windows-registry-key-modification
+233,Active,volgmer,windows,privilege-escalation,T1543.003,Windows Service,command-execution|driver-load|os-api-execution|process-creation|service-creation|service-modification|windows-registry-key-creation|windows-registry-key-modification
+234,Active,wannacry,windows,persistence,T1543.003,Windows Service,command-execution|driver-load|os-api-execution|process-creation|service-creation|service-modification|windows-registry-key-creation|windows-registry-key-modification
+235,Active,wannacry,windows,privilege-escalation,T1543.003,Windows Service,command-execution|driver-load|os-api-execution|process-creation|service-creation|service-modification|windows-registry-key-creation|windows-registry-key-modification
+236,Active,applejeus,linux|macos|windows,persistence,T1546.016,Installer Packages,command-execution|file-creation|process-creation
+237,Active,applejeus,linux|macos|windows,privilege-escalation,T1546.016,Installer Packages,command-execution|file-creation|process-creation
+238,Active,dtrack,linux|macos|windows,persistence,T1547,Boot or Logon Autostart Execution,command-execution|driver-load|file-creation|file-modification|kernel-module-load|module-load|os-api-execution|process-creation|windows-registry-key-creation|windows-registry-key-modification
+239,Active,dtrack,linux|macos|windows,privilege-escalation,T1547,Boot or Logon Autostart Execution,command-execution|driver-load|file-creation|file-modification|kernel-module-load|module-load|os-api-execution|process-creation|windows-registry-key-creation|windows-registry-key-modification
+240,Active,taintedscribe,windows,persistence,T1547.001,Registry Run Keys / Startup Folder,command-execution|file-modification|process-creation|windows-registry-key-creation|windows-registry-key-modification
+241,Active,taintedscribe,windows,privilege-escalation,T1547.001,Registry Run Keys / Startup Folder,command-execution|file-modification|process-creation|windows-registry-key-creation|windows-registry-key-modification
+242,Active,threatneedle,windows,persistence,T1547.001,Registry Run Keys / Startup Folder,command-execution|file-modification|process-creation|windows-registry-key-creation|windows-registry-key-modification
+243,Active,threatneedle,windows,privilege-escalation,T1547.001,Registry Run Keys / Startup Folder,command-execution|file-modification|process-creation|windows-registry-key-creation|windows-registry-key-modification
+244,Active,applejeus,windows,defense-evasion,T1548.002,Bypass User Account Control,command-execution|process-creation|process-metadata|windows-registry-key-modification
+245,Active,applejeus,windows,privilege-escalation,T1548.002,Bypass User Account Control,command-execution|process-creation|process-metadata|windows-registry-key-modification
+246,Active,applejeus,macos|windows,defense-evasion,T1553.002,Code Signing,file-metadata
+247,Active,blindingcan,macos|windows,defense-evasion,T1553.002,Code Signing,file-metadata
+248,Active,dtrack,linux|macos|windows,collection,T1560,Archive Collected Data,command-execution|file-creation|process-creation|script-execution
+249,Active,taintedscribe,linux|macos|windows,collection,T1560,Archive Collected Data,command-execution|file-creation|process-creation|script-execution
+250,Active,applejeus,linux|macos|windows|office-365|saas|google-workspace,initial-access,T1566.002,Spearphishing Link,application-log-content|network-traffic-content|network-traffic-flow
+251,Active,wannacry,linux|macos|windows,lateral-movement,T1570,Lateral Tool Transfer,command-execution|file-creation|file-metadata|named-pipe-metadata|network-share-access|network-traffic-content|network-traffic-flow|process-creation
+252,Active,badcall,linux|macos|windows,command-and-control,T1571,Non-Standard Port,network-traffic-content|network-traffic-flow
+253,Active,bankshot,linux|macos|windows,command-and-control,T1571,Non-Standard Port,network-traffic-content|network-traffic-flow
+254,Active,hardrain,linux|macos|windows,command-and-control,T1571,Non-Standard Port,network-traffic-content|network-traffic-flow
+255,Active,hoplight,linux|macos|windows,command-and-control,T1571,Non-Standard Port,network-traffic-content|network-traffic-flow
+256,Active,typeframe,linux|macos|windows,command-and-control,T1571,Non-Standard Port,network-traffic-content|network-traffic-flow
+257,Active,cryptoistic,linux|macos|windows,command-and-control,T1573,Encrypted Channel,network-traffic-content
+258,Active,dtrack,linux|macos|windows,defense-evasion,T1574,Hijack Execution Flow,command-execution|file-creation|file-modification|module-load|process-creation|service-metadata|windows-registry-key-modification
+259,Active,dtrack,linux|macos|windows,persistence,T1574,Hijack Execution Flow,command-execution|file-creation|file-modification|module-load|process-creation|service-metadata|windows-registry-key-modification
+260,Active,dtrack,linux|macos|windows,privilege-escalation,T1574,Hijack Execution Flow,command-execution|file-creation|file-modification|module-load|process-creation|service-metadata|windows-registry-key-modification
